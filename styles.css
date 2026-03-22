@@ -1,3 +1,83 @@
-.title {
-    color: green;
+body {
+    background-color: #dcdcdc;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+a {
+    color: #2f6b3f; /* forest green links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 720px;
+    margin: 15px auto;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+}
+
+.header {
+    background-color: #1f4d2e; /* deep forest green */
+    color: #ffffff;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.subheader {
+    background-color: #eeeeee;
+    padding: 6px;
+    font-size: 10px;
+    color: #333333;
+}
+
+.left {
+    width: 180px;
+    vertical-align: top;
+    background-color: #f4f4f4;
+}
+
+.right {
+    width: 540px;
+    vertical-align: top;
+}
+
+.box {
+    border: 1px solid #999999;
+    margin: 6px;
+    background-color: #ffffff;
+}
+
+.box-title {
+    background-color: #6f9f7a; /* soft mossy green */
+    color: #ffffff;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.box-content {
+    padding: 8px;
+    line-height: 1.4;
+}
+
+.blog-entry {
+    margin-bottom: 20px;
+}
+
+.blog-date {
+    font-size: 10px;
+    color: #666666;
+}
+
+.mood {
+    color: #7a2e2e;
+    font-weight: bold;
+    font-size: 10px;
+}
+.howl {
+  color: #d9772a; /* sunset orange */
 }
